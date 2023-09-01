@@ -1,0 +1,34 @@
+.logo {
+  height: 50px;
+  width: 170px;
+}
+
+.languageLogo {
+  height: 20px;
+  width: 20px;
+  margin-right: 4px;
+}
+.enLanguageLogo {
+  height: 19px;
+  width: 20px;
+  padding-left: 2px;
+}
+#basic-nav-dropdown {
+  max-width: 160px !important;
+  min-width: 120px !important;
+}
+.choosingLang {
+  background-color: greenyellow !important;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.show-Fade_in {
+  display: block;
+  animation: fade-in 0.4s ease-in both;
+}
